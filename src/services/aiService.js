@@ -1,5 +1,5 @@
 export async function askAI(question) {
-  const apiKey = ''; // token que eu deixei na descrição do video.
+  const apiKey = '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';
   const endpoint = 'https://openrouter.ai/api/v1/chat/completions';
 
   const response = await fetch(endpoint, {

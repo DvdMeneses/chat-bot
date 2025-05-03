@@ -25,7 +25,7 @@ function App() {
             <div className="logo-image"
             >
               <img
-                src="/assets/logofuria.png"
+                src={process.env.PUBLIC_URL + "/assets/logofuria.png"}
                 alt="Logo FURIA"
               />
             </div>

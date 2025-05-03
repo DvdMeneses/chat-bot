@@ -66,7 +66,7 @@ export default function Chat() {
     <div className="chat-container">
       <div className="logo-chat">
         <img
-          src="/assets/logofuria.png"
+          src={process.env.PUBLIC_URL + "/assets/logofuria.png"}
           alt="Logo FURIA"
         />
       </div>

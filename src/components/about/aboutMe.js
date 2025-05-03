@@ -8,7 +8,7 @@ export default function AboutMe() {
             <div className="container">
                 <div className="left-side">
                     <img
-                        src="/assets/333.png"
+                        src={process.env.PUBLIC_URL + "/assets/333.png"}
                         alt="David Meneses"
                         className="profile-photo"
                     />
