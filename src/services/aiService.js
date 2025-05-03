@@ -1,5 +1,5 @@
 export async function askAI(question) {
-  const apiKey = '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';
+  const apiKey = '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';
   const endpoint = 'https://openrouter.ai/api/v1/chat/completions';
 
   const response = await fetch(endpoint, {
