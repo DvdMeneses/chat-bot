@@ -1,5 +1,5 @@
 export async function askAI(question) {
-  const apiKey = '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'; // Substitua pelo seu token real do OpenRouter
+  const apiKey = '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';
   const endpoint = 'https://openrouter.ai/api/v1/chat/completions';
 
   const response = await fetch(endpoint, {
@@ -9,11 +9,11 @@ export async function askAI(question) {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'deepseek/deepseek-r1-zero:free',
+      model: 'openai/gpt-3.5-turbo',
       messages: [
         {
           role: 'system',
-          content: 'Você é um assistente especializado na FURIA, uma organização de esports, com foco no cenário de Counter-Strike (CS:GO e CS2). Responda somente perguntas sobre a FURIA e seus jogadores. Sempre forneça respostas claras, diretas e objetivas em português do Brasil. Caso a pergunta não seja sobre a FURIA, responda que você só pode falar sobre a FURIA e seus jogadores. Não forneça informações irrelevantes ou fora do contexto.',
+          content: 'Você é um assistente especializado na FURIA, uma organização de esports, com foco no cenário de Counter-Strike (CS:GO e CS2). Responda SOMENTE com texto claro em português. NÃO retorne código ou markdown. Não inclua blocos de código.'
         },
         { role: 'user', content: question }
       ]
@@ -32,14 +32,10 @@ export async function askAI(question) {
   const data = await response.json();
   let answer = data.choices[0].message.content;
 
-  // Remove a formatação \boxed{...} se existir
   answer = answer.replace(/\\boxed{(.*?)}/g, '$1');
-
-  // Remove a palavra "box" e a barra invertida "\"
   answer = answer.replace(/\\|box/g, '');
-
-  // Remove a formatação de blocos de código (caso exista)
   answer = answer.replace(/```json\s*(.*?)```/gs, '$1');
+  answer = answer.replace(/```[\s\S]*?```/g, '');
 
   return answer;
 }
