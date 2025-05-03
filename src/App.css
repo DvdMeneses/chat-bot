@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container-chat {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.logo-container {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 15%;
+}
+
+.logo-image {
+  max-width: 300px;
+  transition: transform 0.6s ease;
+}
+
+.logo-image:hover {
+  transform: rotate(360deg) scale(1.05);
+}
+
+.chat-header {
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+}

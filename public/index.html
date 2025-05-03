@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="https://furiagg.fbitsstatic.net/sf/img/favicon.ico?theme=main&v=202503171541" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#4a4a4a" />
+  <meta name="description" content="Fúria Bot - Seu assistente virtual inteligente" />
+  <link rel="apple-touch-icon" href="./assets/logofuria.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Fúria Bot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    /* Garante que o body e html preencham toda a tela */
+    html,
+    body,
+    #root {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Garante que o App ocupe a tela toda e use flex */
+    .App {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Deixa o conteúdo crescer e empurra o footer pra baixo */
+    .App>*:not(footer) {
+      flex: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>Você precisa habilitar o JavaScript para rodar esta aplicação.</noscript>
+  <div id="root"></div>
+</body>
+
+</html>
