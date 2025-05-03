@@ -1,5 +1,5 @@
 export async function askAI(question) {
-  const apiKey = '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';
+  const apiKey = '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'; // Substitua pelo seu token real do OpenRouter
   const endpoint = 'https://openrouter.ai/api/v1/chat/completions';
 
   const response = await fetch(endpoint, {
@@ -31,9 +31,14 @@ export async function askAI(question) {
 
   const data = await response.json();
   let answer = data.choices[0].message.content;
+
+  // Remove a formatação \boxed{...} se existir
   answer = answer.replace(/\\boxed{(.*?)}/g, '$1');
+
+  // Remove a palavra "box" e a barra invertida "\"
   answer = answer.replace(/\\|box/g, '');
 
+  // Remove a formatação de blocos de código (caso exista)
   answer = answer.replace(/```json\s*(.*?)```/gs, '$1');
 
   return answer;
