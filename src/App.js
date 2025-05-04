@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Chat from './components/chat/Chat.js';
 import Header from './components/header/Header.js';
-import "./App.css";
-import Footer from './components/footer/Footer';
+import "./App.scss";
+import Footer from './components/footer/Footer.js';
 import AboutMe from './components/about/aboutMe.js';
 
 

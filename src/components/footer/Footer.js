@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./Footer.scss";
 import { NewsletterForm } from "./NewsletterForm/NewsletterForm";
 import { FooterMenu } from "./FooterMenu/FooterMenu";
 import { SocialLinks } from "./SocialLinks/SocialLinks";
