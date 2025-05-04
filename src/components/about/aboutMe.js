@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutMe.css";
+import "./AboutMe.scss";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function AboutMe() {

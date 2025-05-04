@@ -1,0 +1,124 @@
+.about-me {
+    background-color: #f9f9f9;
+    margin-top: 30px;
+    padding: 2rem;
+
+    .container {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin: 0 auto;
+        max-width: 1000px;
+
+        .left-side {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+
+            .profile-photo {
+                border: 3px solid #ccc;
+                border-radius: 50%;
+                height: 180px;
+                object-fit: cover;
+                width: 180px;
+            }
+
+            .social-links {
+                display: flex;
+                gap: 1rem;
+                margin-top: 1rem;
+
+                a {
+                    color: #333;
+                    font-size: 1.5rem;
+                    transition: color 0.3s;
+
+                    &:hover {
+                        color: #0077b5;
+                    }
+                }
+            }
+        }
+
+        .right-side {
+            flex: 1;
+
+            h2 {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+        }
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        padding: 1.5rem;
+
+        .container {
+            flex-direction: column;
+            gap: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .left-side {
+                .profile-photo {
+                    height: 150px;
+                    width: 150px;
+                }
+            }
+
+            .right-side {
+                h2 {
+                    font-size: 1.75rem;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: justify;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        padding: 1rem;
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .left-side {
+                .profile-photo {
+                    height: 120px;
+                    width: 120px;
+                }
+
+                .social-links {
+                    gap: 0.75rem;
+
+                    a {
+                        font-size: 1.25rem;
+                    }
+                }
+            }
+
+            .right-side {
+                h2 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
