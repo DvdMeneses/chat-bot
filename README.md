@@ -34,7 +34,9 @@ E muito mais. Se é sobre a FURIA no CS, **o bot responde.**
 
 - **React** – Interface do usuário dinâmica e responsiva.
 - **DeepSeek** – Inteligência artificial para respostas fora do banco de dados.
+- **ChatGPT Turbo** – Modelo de IA usado para gerar respostas personalizadas.
 - **Fetch API** – Comunicação HTTP com o backend de IA.
+- **Git** – Controle de versionamento do projeto.
 
 ---
 
