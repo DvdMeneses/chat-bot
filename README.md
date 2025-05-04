@@ -1,35 +1,52 @@
-
 # ChatBot FURIA
 
-Este é um chatbot especializado na organização de esports FURIA, desenvolvido com React. Ele foi integrado ao DeepSeek, uma plataforma de IA, para responder perguntas que não estão no banco de dados de perguntas frequentes já criadas. O chatbot tem como foco responder perguntas relacionadas ao cenário da FURIA, seus jogadores e eventos, proporcionando uma experiência interativa e especializada.
+Este é um chatbot especializado na organização de esports **FURIA**, desenvolvido com React. Ele foi integrado ao **DeepSeek**, uma plataforma de IA, para responder perguntas que não estão no banco de dados de perguntas frequentes já criadas. O chatbot tem como foco responder perguntas relacionadas ao cenário da FURIA, seus jogadores e eventos, proporcionando uma experiência interativa e personalizada para fãs da organização.
+
+---
 
 ## Funcionalidades
 
-- Respostas rápidas sobre a FURIA, com base no banco de perguntas frequentes.
-- Caso a pergunta não esteja no banco, o chatbot utiliza a integração com o DeepSeek para buscar respostas.
-- Focado no cenário de Counter-Strike (CS:GO e CS2) e jogadores da FURIA.
+- ✅ Respostas instantâneas sobre a **FURIA**, baseadas em um banco de perguntas frequentes.
+- 🧠 Caso a pergunta não esteja no banco, o chatbot utiliza a **integração com o DeepSeek** para buscar e construir respostas inteligentes.
+- 🎯 Foco no cenário competitivo de **Counter-Strike (CS:GO e CS2)** e jogadores da FURIA.
+
+---
+
+## O que você pode perguntar?
+
+Você pode perguntar praticamente **tudo sobre a FURIA no CS**, como por exemplo:
+
+- 🧑‍🤝‍🧑 *Quem são os jogadores atuais da line principal da FURIA?*  
+- 🏆 *Quais títulos a FURIA já venceu no CS:GO e CS2?*  
+- 🎮 *Quando será o próximo campeonato com participação da FURIA?*  
+- 🔄 *Houve alguma mudança recente na lineup?*  
+- 📈 *Qual a posição da FURIA no ranking mundial atualmente?*  
+- 🔫 *Qual o mapa preferido da FURIA?*  
+- 👑 *Qual jogador da FURIA tem mais MVPs?*  
+- 🎥 *Onde posso assistir os jogos da FURIA ao vivo?*  
+- 🧠 *Qual o estilo de jogo tático da FURIA no CS2?*
+
+E muito mais. Se é sobre a FURIA no CS, **o bot responde.**
+
+---
 
 ## Tecnologias Usadas
 
-- **React**: Framework JavaScript para construção da interface do usuário.
-- **DeepSeek**: Plataforma de IA para responder perguntas que 
-- **Fetch API**: Para fazer requisições HTTP ao DeepSeek.
+- **React** – Interface do usuário dinâmica e responsiva.
+- **DeepSeek** – Inteligência artificial para respostas fora do banco de dados.
+- **Fetch API** – Comunicação HTTP com o backend de IA.
+
+---
 
 ## Como rodar o projeto
 
-Para rodar este projeto localmente, siga os passos abaixo.
-
 ### 1. Clonando o repositório
-
-Primeiro, clone o repositório para sua máquina local:
 
 ```bash
 git clone https://github.com/DvdMeneses/chat-bot.git
 ```
 
 ### 2. Instalando as dependências
-
-Dentro da pasta do projeto, instale as dependências necessárias usando o seguinte comando:
 
 ```bash
 cd chat-bot
@@ -38,17 +55,14 @@ npm install
 
 ### 3. Configurando a chave da API
 
-Para integrar o chatbot com o DeepSeek, você precisará configurar sua chave de API.Na linha 2 do arquivo `furia-bot\src\services\aiService.js` adicione a key que eu coloquei na descrição do video no yt.
+No arquivo `furia-bot/src/services/aiService.js`, adicione sua chave da API DeepSeek na **linha 2**.
 
-A chave de API será usada no arquivo `iaService.js` para fazer a comunicação com o DeepSeek.
+A chave está na descrição do vídeo no YouTube.
 
 ### 4. Rodando o projeto
-
-Após a configuração, execute o projeto em modo de desenvolvimento com o seguinte comando:
 
 ```bash
 npm start
 ```
 
-O aplicativo estará disponível em [http://localhost:5000](http://localhost:5000).
-
+Acesse o app em: [http://localhost:5000](http://localhost:5000)
