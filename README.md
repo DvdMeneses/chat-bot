@@ -1,6 +1,6 @@
 # ChatBot FURIA
 
-Este é um chatbot especializado na organização de esports **FURIA**, desenvolvido com React. Ele foi integrado ao **DeepSeek**, uma plataforma de IA, para responder perguntas que não estão no banco de dados de perguntas frequentes já criadas. O chatbot tem como foco responder perguntas relacionadas ao cenário da FURIA, seus jogadores e eventos, proporcionando uma experiência interativa e personalizada para fãs da organização.
+Este é um chatbot especializado na organização de esports **FURIA**, desenvolvido com React. Ele foi integrado ao **chat-gpt turbo**, uma plataforma de IA, para responder perguntas que não estão no banco de dados de perguntas frequentes já criadas. O chatbot tem como foco responder perguntas relacionadas ao cenário da FURIA, seus jogadores e eventos, proporcionando uma experiência interativa e personalizada para fãs da organização.
 
 ---
 
