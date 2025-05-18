@@ -68,3 +68,5 @@ npm start
 ```
 
 Acesse o app em: [http://localhost:5000](http://localhost:5000)
+
+Ou no site https://chat-bot-kohl-theta.vercel.app
