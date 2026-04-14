@@ -3,9 +3,8 @@ import React from "react";
 export const NewsletterForm = () => (
     <div className="footer__newsletter">
         <div className="newsletter__title">
-            <span>Seja o primeiro a receber nossos lançamentos e novidades:</span>
-        </div>
-        <div className="newsletter__form">
+            <span>Seja o primeiro a receber nossos lançamentos e novidades</span>
+        </div>{/* <div className="newsletter__form">
             <form className="newsletter-form" id="newsletter-form" onSubmit={(e) => e.preventDefault()}>
                 <input
                     type="email"
@@ -46,7 +45,8 @@ export const NewsletterForm = () => (
                     </svg>
                 </button>
             </form>
-        </div>
+        </div> */}
+
         <div id="alert-newsletter"></div>
     </div>
 );
