@@ -3,7 +3,7 @@ import "./Footer.scss";
 import { NewsletterForm } from "./NewsletterForm/NewsletterForm";
 import { FooterMenu } from "./FooterMenu/FooterMenu";
 import { SocialLinks } from "./SocialLinks/SocialLinks";
-import { Copyright } from "./Copyright/Copyright";
+//import { Copyright } from "./Copyright/Copyright";
 
 export const Footer = () => {
     const infoMenuItems = [
