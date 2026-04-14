@@ -8,13 +8,13 @@ export default function AboutMe() {
             <div className="container">
                 <div className="left-side">
                     <img
-                        src={process.env.PUBLIC_URL + "/assets/333.png"}
-                        alt="David Meneses"
+                        src={process.env.PUBLIC_URL + "/assets/foto_michael.jpeg"}
+                        alt="Michael Meneses"
                         className="profile-photo"
                     />
                     <div className="social-links">
                         <a
-                            href="https://github.com/DvdMeneses"
+                            href="https://github.com/MichaelMeneses"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="GitHub"
@@ -22,7 +22,7 @@ export default function AboutMe() {
                             <FaGithub />
                         </a>
                         <a
-                            href="9https://www.linkedin.com/in/david-meneses-9b5157233/"
+                            href="https://www.linkedin.com/in/michael-meneses-b97513268/"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="LinkedIn"
@@ -30,7 +30,7 @@ export default function AboutMe() {
                             <FaLinkedin />
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/david-meneses-9b5157233"
+                            href="https://www.linkedin.com/in/michael-meneses-b97513268/"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Instagram"
