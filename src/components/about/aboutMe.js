@@ -14,7 +14,7 @@ export default function AboutMe() {
                     />
                     <div className="social-links">
                         <a
-                            href="https://github.com/MichaelMeneses"
+                            href="https://github.com/Michael-Meneses"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="GitHub"
@@ -42,7 +42,7 @@ export default function AboutMe() {
                 <div className="right-side">
                     <h2>Sobre mim</h2>
                     <p>
-                        Olá! Meu nome é David Meneses, sou formado em Análise e Desenvolvimento de Sistemas pela UFRN. Sou apaixonado por tecnologia, inovação, criatividade e jogos. Atualmente, atuo no desenvolvimento web e mobile, utilizando tecnologias como Flutter, PHP, JavaScript, React, entre outras. Estou sempre em busca de aprendizado e de contribuir com projetos significativos que gerem impacto positivo!                    </p>
+                        Olá! Sou um profissional de T.I com experiência em suporte, infraestrutura e redes, tendo atuado em empresas como Sig@me Informática, iByte e Vila Galé Hotéis, onde fui Analista de T.I Sênior. Também trabalhei no Governo do Estado do Ceará, desenvolvendo disciplina e atuação em ambientes estruturados. Recentemente, concluí um MBA em Cibersegurança e venho me especializando na área com formações como Cisco CCNA e desenvolvimento Full-Stack. Busco oportunidades em Segurança da Informação (Blue Team/SOC, Infra/Cloud e GRC/LGPD), com foco em reduzir riscos e melhorar a segurança dos ambientes.                  </p>
 
                 </div>
             </div>
