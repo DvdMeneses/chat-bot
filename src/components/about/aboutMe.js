@@ -42,7 +42,7 @@ export default function AboutMe() {
                 <div className="right-side">
                     <h2>Sobre mim</h2>
                     <p>
-                        Olá! Sou um profissional de T.I com experiência em suporte, infraestrutura e redes, tendo atuado em empresas como Sig@me Informática, iByte e Vila Galé Hotéis, onde fui Analista de T.I Sênior. Também trabalhei no Governo do Estado do Ceará, desenvolvendo disciplina e atuação em ambientes estruturados. Recentemente, concluí um MBA em Cibersegurança e venho me especializando na área com formações como Cisco CCNA e desenvolvimento Full-Stack. Busco oportunidades em Segurança da Informação (Blue Team/SOC, Infra/Cloud e GRC/LGPD), com foco em reduzir riscos e melhorar a segurança dos ambientes.                  </p>
+                        Olá! Sou um profissional de T.I com experiência em suporte, infraestrutura e redes, tendo atuado em empresas como Sig@me Informática, iByte e Vila Galé Hotéis, onde fui Analista de T.I Sênior. Também trabalhei no Governo do Estado do Ceará, desenvolvendo disciplina e atuação em ambientes estruturados. Recentemente, concluí um MBA em Cibersegurança e venho me especializando na área com formações como Cisco CCNA e desenvolvimento Full-Stack (Blue Team/SOC, Infra/Cloud e GRC/LGPD), com foco em reduzir riscos e melhorar a segurança dos ambientes, finalizando curso de IA generativa.                  </p>
 
                 </div>
             </div>
